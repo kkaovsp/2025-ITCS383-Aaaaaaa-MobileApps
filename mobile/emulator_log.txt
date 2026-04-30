@@ -1,0 +1,122 @@
+INFO         | Android emulator version 36.5.11.0 (build_id 15261927) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath /Users/kao_macbookm2/Library/Android/sdk/system-images/android-37.0/google_apis_playstore_ps16k/arm64-v8a/
+WARNING      | Please update the emulator to one that supports the feature(s): VulkanVirtualQueue
+INFO         | Increasing RAM size to 2048MB
+INFO         | Guest GLES Driver: Auto (ext controls)
+WARNING      | Software GL rendering will be used due to system memory pressure, performance will be affected! (Available Memory: 3005 MB, Required: 5120 MB)
+INFO         | emuglConfig_init: vulkan_mode_selected:lavapipe gles_mode_selected:swangle
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `Small_Phone` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU compatibility checks are not required
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `Small_Phone` are met
+INFO         | Storing crashdata in: /tmp/android-kao_macbookm2/emu-crash-36.5.11.db, detection is enabled for process: 6194
+INFO         | Initializing gfxstream backend
+INFO         | android_startOpenglesRenderer: gpu info
+INFO         | 
+INFO         | initIcdPaths: ICD set to 'lavapipe', using Lavapipe ICD
+INFO         | Setting ICD filenames for the loader = /Users/kao_macbookm2/Library/Android/sdk/emulator/lib64/vulkan/lvp_icd.json
+INFO         | SharedLibrary::open for [/Users/kao_macbookm2/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib]
+INFO         | Added library: /Users/kao_macbookm2/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib
+INFO         | Enabling Vulkan portability.
+INFO         | Selecting Vulkan device: llvmpipe (LLVM 21.1.4, 128 bits), Version: 1.4.330
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: false
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: false
+INFO         |     useVulkanNativeSwapchain: false
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         |     guestVulkanMaxApiVersion: 1.4.344
+INFO         | Graphics Adapter Vendor Google (Google Inc. (Google))
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))
+INFO         | Graphics API Version OpenGL ES 3.0 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_draw_buffers_indexed GL_EXT_clip_cull_distance 
+INFO         | Graphics Device Extensions N/A
+INFO         | Disabling sparse binding feature support
+INFO         | Sending adb public key [QAAAAJNB9zZl+zgpJiV6qnsdXOguUOZ57Cc3EPY6CVnnsEcezrn5rcXsYeTnoP1mVbdGos187LDWqpzLQZeRpnGHA9/0ROgPj0W1mEsX4j4Ms4ACohCMMfX/Lm/WUmoSC4DoCIkCi4wXhczbn/eMFCgzgQszzgmcgqnM8Akf3/nKeEMkteVGwuzhjUaAusrGDPSAi2AJg6DphdPXOuuNysjNpTepWOlhGqlCEHBmH941oaAvD5zySBT2E5ewJQR74DFKbB9LfbfCEtQ3mdXQnIWfevf4aQrZUI8dqXQutFHsfiCBiaWtWK/O83cBilNZLg2jWDNY9QQZObqjWLHubfFUC3DlFTXgZ4V3o3pJ7RYm7FLFHaVXKCd75xFkPaZq2d7NxoYQ6lbtS3BNElMidhj2C46eDnm0e2xnUE8Z05SRTLxtFAxBCZD3EwuBRQn2HyyMD1mX+sOEqs0L6uIXUoOLt7MK+Nn1k6cz2g5utnf0TB7liwPTE7bSbS8cFoooIqRnVGq2qZOsLd0qocNfvNRVNuuCX9WUsCXNqxPskhbMTv5ERDH7Oiafpx+1raZK8CpLmxEQ9FbxJDxttiGffx9NoSLzGv3TvjmKuIkN0hoCWJiQbbR4HO36icg7xVh3g7h5G0Hv8ZwGMrWCEwSaNGZub4oK7ROcpnJA6JncF5thcQBFb3XcaQEAAQA= kao_macbookm2@unknown]
+INFO         | Userspace boot properties:
+INFO         |   androidboot.boot_devices=a003600.virtio_mmio
+INFO         |   androidboot.dalvik.vm.heapsize=512m
+INFO         |   androidboot.debug.hwui.renderer=skiagl
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.hardware.gltransport=pipe
+INFO         |   androidboot.hardware.vulkan=ranchu
+INFO         |   androidboot.logcat=*:V
+INFO         |   androidboot.opengles.version=196609
+INFO         |   androidboot.qemu=1
+INFO         |   androidboot.qemu.adb.pubkey=QAAAAJNB9zZl+zgpJiV6qnsdXOguUOZ57Cc3EPY6CVnnsEcezrn5rcXsYeTnoP1mVbdGos187LDWqpzLQZeRpnGHA9/0ROgPj0W1mEsX4j4Ms4ACohCMMfX/Lm/WUmoSC4DoCIkCi4wXhczbn/eMFCgzgQszzgmcgqnM8Akf3/nKeEMkteVGwuzhjUaAusrGDPSAi2AJg6DphdPXOuuNysjNpTepWOlhGqlCEHBmH941oaAvD5zySBT2E5ewJQR74DFKbB9LfbfCEtQ3mdXQnIWfevf4aQrZUI8dqXQutFHsfiCBiaWtWK/O83cBilNZLg2jWDNY9QQZObqjWLHubfFUC3DlFTXgZ4V3o3pJ7RYm7FLFHaVXKCd75xFkPaZq2d7NxoYQ6lbtS3BNElMidhj2C46eDnm0e2xnUE8Z05SRTLxtFAxBCZD3EwuBRQn2HyyMD1mX+sOEqs0L6uIXUoOLt7MK+Nn1k6cz2g5utnf0TB7liwPTE7bSbS8cFoooIqRnVGq2qZOsLd0qocNfvNRVNuuCX9WUsCXNqxPskhbMTv5ERDH7Oiafpx+1raZK8CpLmxEQ9FbxJDxttiGffx9NoSLzGv3TvjmKuIkN0hoCWJiQbbR4HO36icg7xVh3g7h5G0Hv8ZwGMrWCEwSaNGZub4oK7ROcpnJA6JncF5thcQBFb3XcaQEAAQA= kao_macbookm2@unknown
+INFO         |   androidboot.qemu.avd_name=Small_Phone
+INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+INFO         |   androidboot.qemu.camera_protocol_ver=1
+INFO         |   androidboot.qemu.cpuvulkan.version=4202496
+INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+INFO         |   androidboot.qemu.gltransport.name=pipe
+INFO         |   androidboot.qemu.hwcodec.avcdec=2
+INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   androidboot.qemu.skin=720x1280
+INFO         |   androidboot.qemu.virtiowifi=1
+INFO         |   androidboot.qemu.vsync=60
+INFO         |   androidboot.serialno=EMULATOR36X5X11X0
+INFO         |   androidboot.vbmeta.digest=9ee653807f180862621511267612df0a9c3afc313e57311f064e2d92a0041780
+INFO         |   androidboot.vbmeta.hash_alg=sha256
+INFO         |   androidboot.vbmeta.size=6720
+INFO         |   androidboot.veritymode=enforcing
+INFO         | Monitoring duration of emulator setup.
+WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO         | Using security allow list from: /Users/kao_macbookm2/Library/Android/sdk/emulator/lib/emulator_access.json
+WARNING      | *** Basic token auth should only be used by android-studio ***
+INFO         | The active JSON Web Key Sets can be found here: /Users/kao_macbookm2/Library/Caches/TemporaryItems/avd/running/6194/jwks/7d8462aa-625a-4f4a-b780-a324ae0c3c1c/active.jwk
+INFO         | Scanning /Users/kao_macbookm2/Library/Caches/TemporaryItems/avd/running/6194/jwks/7d8462aa-625a-4f4a-b780-a324ae0c3c1c for jwk keys.
+INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO         | Advertising in: /Users/kao_macbookm2/Library/Caches/TemporaryItems/avd/running/pid_6194.ini
+INFO         | Successfully initialized netsim WiFi
+INFO         | Activated packet streamer for uwb emulation
+INFO         | Activated packet streamer for bluetooth emulation
+INFO         | Setting display: 0 configuration to: 720x1280, dpi: 320x320 
+INFO         | setDisplayActiveConfig: id:0, 720x1280
+INFO         | emulatorSetupEnvironment: Setting up screen background view and display layout at env:720x1280, lcd:720x1280
+WARNING      | getEnvironmentConfig: No environment config is provided
+INFO         | getEnvironmentConfig: Using default virtual scene contents for the environment.
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `Small_Phone` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU compatibility checks are not required
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `Small_Phone` are met
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+INFO         | Loading snapshot 'default_boot'...
+INFO         | GPU Vendor=[Google (Google Inc. (Google))]
+INFO         | GPU Renderer=[Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))]
+INFO         | GPU Version=[OpenGL ES 3.0 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))]
+INFO         | Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+(Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=1
+INFO         | Guest Angle is still unstable for API > 35.
+INFO         | Warning: QObject::connect: No such signal ToolWindow::microphoneEnabledChanged() in /Volumes/Android/buildbot/src/googleplex-android/emu-36-5-release/external/qemu/android/android-ui/modules/aemu-ui-qt/src/android/skin/qt/extended-window.cpp:160 (:0, )
+INFO         | Warning: QObject::connect:  (sender name:   'ToolControls') (:0, )
+INFO         | Warning: QObject::connect:  (receiver name: 'microphonePage') (:0, )
+INFO         | Warning: QObject::connect: No such signal MicrophonePage::microphoneEnabledChanged() in /Volumes/Android/buildbot/src/googleplex-android/emu-36-5-release/external/qemu/android/android-ui/modules/aemu-ui-qt/src/android/skin/qt/extended-window.cpp:162 (:0, )
+INFO         | Warning: QObject::connect:  (sender name:   'microphonePage') (:0, )
+INFO         | Warning: QObject::connect:  (receiver name: 'ToolControls') (:0, )
+INFO         | Created extended window in 289.871ms
+INFO         | Successfully loaded snapshot 'default_boot' using 5071 ms
+INFO         | GPU Vendor=[Google (Google Inc. (Google))]
+INFO         | GPU Renderer=[Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))]
+INFO         | GPU Version=[OpenGL ES 3.0 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))]
+WARNING      | adb command '/Users/kao_macbookm2/Library/Android/sdk/platform-tools/adb -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb: device offline'
+INFO         | Boot completed in 15889 ms
+INFO         | Increasing screen off timeout, logcat buffer size to 2M.
+WARNING      | timed out running adb command
